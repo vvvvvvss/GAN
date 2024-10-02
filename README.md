@@ -12,3 +12,4 @@ The input is a 3x64x64 input image and the output is a scalar probability that t
 The generator is comprised of convolutional-transpose layers, batch norm layers, and ReLU activations.
 The input is a latent vector, z, that is drawn from a standard normal distribution and the output is a 3x64x64 RGB image.
 The strided conv-transpose layers allow the latent vector to be transformed into a volume with the same shape as an image. 
+![image](https://github.com/user-attachments/assets/f20edb03-7cc2-425b-bef4-eb845f8c8dc5)
